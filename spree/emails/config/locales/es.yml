@@ -1,0 +1,141 @@
+---
+es:
+  spree:
+    company_mailer:
+      invitation_email:
+        action: Aceptar invitación
+        expiry_notice: Este enlace de invitación vencerá en 30 días.
+        greeting: 'Hola:'
+        ignore_notice: Si no esperabas esta invitación, podés ignorar este correo electrónico sin problema.
+        instructions: Fuiste invitado/a a unirte a %{company} en %{store}. Aceptá la invitación para empezar a comprar en nombre de la empresa.
+        subject: invitación para unirse a %{company}
+        title: Unite a %{company}
+    customer_mailer:
+      data_export_email:
+        action: Descargar tus datos
+        expiry_notice: Este enlace de descarga vence el %{date}.
+        greeting: 'Hola:'
+        ignore_notice: Si no solicitaste una copia de tus datos, por favor contactanos.
+        instructions: Tu copia de los datos personales que tenemos sobre vos está lista. Usá el botón a continuación para descargarla.
+        subject: Tus datos están listos para descargar
+      password_reset_email:
+        action: Restablecer contraseña
+        expiry_notice: Este enlace para restablecer la contraseña vencerá pronto. Si no solicitaste esto, no es necesario hacer nada.
+        greeting: 'Hola, %{name}:'
+        ignore_notice: Si no solicitaste restablecer tu contraseña, podés ignorar este correo electrónico sin problema. Tu contraseña no será modificada.
+        instructions: Recibimos una solicitud para restablecer tu contraseña. Hacé clic en el botón a continuación para elegir una nueva contraseña.
+        subject: Instrucciones para restablecer la contraseña
+    digital_asset_mailer:
+      files_ready_email:
+        available_until: Disponible hasta el %{date}
+        dear_customer: 'Hola, %{name}:'
+        instructions: Los archivos de tu pedido %{number} ya están listos para descargar.
+        store_team: El equipo de %{store_name}
+        subject: Tus archivos están listos
+        thanks: Gracias por tu compra.
+    fulfillment_mailer:
+      fulfilled_email:
+        dear_customer: 'Hola, %{name}:'
+        delivery_method: 'Método de entrega: %{delivery_method}'
+        fulfillment_summary: Resumen de envío del pedido
+        instructions: Tu pedido %{number} ha sido despachado
+        store_team: El equipo de %{store_name}
+        subject: Notificación de envío
+        thanks: Gracias por tu compra.
+        track_information: 'Información de seguimiento: %{tracking}'
+        track_link: 'Enlace de seguimiento: %{url}'
+    newsletter_mailer:
+      email_confirmation:
+        dear_customer: 'Hola:'
+        ignore_disclaimer: Si no solicitaste esto, ignorá este correo electrónico.
+        instructions: Hacé clic en el botón a continuación para verificar tu dirección de correo electrónico.
+        message_copy_link: 'Si el botón no funciona, copiá y pegá el siguiente enlace en tu navegador:'
+        store_team: El equipo de %{store_name}
+        subject: Verificá tu dirección de correo electrónico
+        thanks: Gracias
+        verify_email_address_link: Verificar dirección de correo electrónico
+    order_group_mailer:
+      confirm_email:
+        arriving_separately:
+          one: Tu pedido llegará en un envío.
+          other: Tu pedido llegará en %{count} envíos separados.
+        dear_customer: 'Hola, %{name}:'
+        instructions: Revisá y conservá la siguiente información sobre el pedido %{number} para tus registros.
+        subject: Confirmación de pedido
+        thanks: Gracias
+      delivery: Envío
+      delivery_numbered: Envío %{position} de %{count}
+      nothing_to_ship: Nada para enviar
+      sold_by: Vendido por %{sellers}
+      store_owner_notification_email:
+        heading: Nuevo pedido recibido
+        instructions:
+          one: Recibiste un nuevo pedido.
+          other: Recibiste un nuevo pedido, dividido en %{count} pedidos de vendedores.
+        purchase_summary: Resumen del pedido %{number}
+        subject: "%{store_name} recibió un nuevo pedido"
+    order_mailer:
+      cancel_email:
+        dear_customer: 'Hola, %{name}:'
+        instructions: Tu pedido ha sido CANCELADO. Conservá esta información de cancelación para tus registros.
+        order_summary_canceled: 'Resumen del pedido %{number} [CANCELADO]'
+        subject: Cancelación de pedido
+        thanks: Gracias por elegirnos.
+      confirm_email:
+        dear_customer: 'Hola, %{name}:'
+        instructions: Revisá y conservá la siguiente información del pedido para tus registros.
+        order_summary: Resumen del pedido %{number}
+        subject: Confirmación de pedido
+        thanks: Gracias
+      payment_link_email:
+        message: Hacé clic en el botón a continuación para pagar tu pedido.
+        message_copy_link: 'Si el botón no funciona, copiá y pegá el siguiente enlace en tu navegador:'
+        pay_for_order: Pagar pedido
+        subject: 'Enlace de pago para el pedido #%{number}'
+      po_number: 'Número de orden de compra: %{number}'
+      store_owner_notification_email:
+        heading: Nuevo pedido recibido
+        instructions: Recibiste un nuevo pedido.
+        order_summary: Resumen del pedido %{number}
+        subject: "%{store_name} recibió un nuevo pedido"
+        thanks: Gracias
+      store_team: El equipo de %{store_name}
+      subtotal: 'Subtotal:'
+      total: 'Total del pedido:'
+    return_mailer:
+      refunded_email:
+        dear_customer: 'Hola, %{name}:'
+        instructions: Tu devolución del pedido %{number} ha sido reembolsada.
+        refund_summary: Resumen del reembolso
+        returned_items: Artículos devueltos
+        store_team: El equipo de %{store_name}
+        subject: Devolución reembolsada
+        thanks: Gracias por tu compra.
+        total_refunded: 'Total reembolsado: %{total}'
+    seller_mailer:
+      approved_email:
+        action: Ir a tu panel
+        heading: Fuiste aprobado/a
+        message: Tu solicitud para vender en %{store_name} fue aprobada. Ya podés publicar productos y empezar a recibir pedidos.
+        subject: Fuiste aprobado/a para vender en %{store_name}
+      get_in_touch: Si creés que esto es un error, respondé a este correo electrónico o contactanos en %{store_email}.
+      greeting: 'Hola, %{seller_name}:'
+      rejected_email:
+        heading: Sobre tu solicitud
+        message: Tu solicitud para vender en %{store_name} no fue aceptada.
+        subject: Tu solicitud para vender en %{store_name}
+      suspended_email:
+        heading: Tu cuenta fue suspendida
+        message: La venta en %{store_name} fue pausada para tu cuenta. Tus productos y tu historial de pedidos no se ven afectados.
+        subject: Tu cuenta de %{store_name} fue suspendida
+    shipment_mailer:
+      shipped_email:
+        dear_customer: 'Hola, %{name}:'
+        instructions: Tu pedido %{number} ha sido enviado
+        shipment_summary: Resumen de envío del pedido
+        shipping_method: 'Método de envío: %{shipping_method}'
+        store_team: El equipo de %{store_name}
+        subject: Notificación de envío
+        thanks: Gracias por tu compra.
+        track_information: 'Información de seguimiento: %{tracking}'
+        track_link: 'Enlace de seguimiento: %{url}'

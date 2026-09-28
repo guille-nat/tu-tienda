@@ -1,0 +1,855 @@
+{
+  "accept_invitation": {
+    "failed": "No se pudo aceptar la invitación. Puede haber vencido, o la contraseña era incorrecta.",
+    "first_name": "Nombre",
+    "invalid_link": "A este enlace le falta el token. Abrí el enlace desde el correo de invitación.",
+    "last_name": "Apellido",
+    "not_found": "Esta invitación ya no es válida. Pedile a quien te invitó que te envíe una nueva.",
+    "password": "Contraseña",
+    "password_confirmation": "Confirmar contraseña",
+    "submit": "Aceptar invitación",
+    "submitting": "Aceptando…",
+    "subtitle": "Fuiste invitado como {{email}}. Definí una contraseña para terminar.",
+    "title": "Unite al equipo"
+  },
+  "account": {
+    "avatar": "Foto",
+    "avatar_help": "Se muestra junto a tu nombre en todo el panel. Las imágenes cuadradas se ven mejor.",
+    "email": "Correo electrónico",
+    "first_name": "Nombre",
+    "language": "Idioma",
+    "last_name": "Apellido",
+    "load_failed_title": "No se pudo cargar tu perfil",
+    "save_failed": "No se pudo guardar tu perfil",
+    "saved": "Perfil actualizado",
+    "saving": "Guardando…",
+    "subtitle": "Administrá tus datos personales y el idioma del panel.",
+    "title": "Perfil"
+  },
+  "admin": {
+    "actions": {
+      "actions_menu": "Acciones",
+      "cancel": "Cancelar",
+      "delete": "Eliminar",
+      "edit": "Editar",
+      "save": "Guardar",
+      "saving": "Guardando…"
+    },
+    "common": {
+      "loading": "Cargando…",
+      "no_results": "Sin resultados"
+    },
+    "components": {
+      "export_button": {
+        "all": {
+          "description": "Ignorá los filtros y exportá todos tus registros."
+        }
+      }
+    },
+    "fields": {
+      "tax_identifier": {
+        "kind": {
+          "help": "Qué tipo de registro es. Debe coincidir con el validador registrado para él, por lo que la ortografía importa.",
+          "label": "Tipo",
+          "required": "Elegí o escribí un tipo de registro"
+        },
+        "value": {
+          "label": "Número",
+          "placeholder": "DE123456789",
+          "required": "Ingresá el número de registro"
+        }
+      }
+    },
+    "orders": {
+      "detail": {
+        "cancel": {
+          "description": "El motivo y la nota quedan registrados en el pedido, y se liquidan todos los pagos.",
+          "keep_order": "Mantener el pedido",
+          "no_reason": "Sin motivo",
+          "note_label": "Nota",
+          "note_placeholder": "Solo el personal ve esta nota",
+          "notify_customer": "Enviar correo electrónico al cliente",
+          "reason_label": "Motivo",
+          "refund_payments": "Reembolsar al cliente",
+          "refund_payments_help": "El dinero ya cobrado se devuelve. Una autorización no reclamada se libera de todos modos."
+        },
+        "fulfillments": {
+          "add_tracking_title": "Agregar seguimiento",
+          "carrier_auto": "Detectar automáticamente",
+          "carrier_label": "Transportista",
+          "carrier_search": "Buscar transportistas",
+          "delivery_method": "Método de entrega",
+          "edit_description": "Cambiá desde dónde se envía este envío y qué método de entrega lo transporta.",
+          "edit_title": "Editar envío",
+          "edit_tracking_title": "Editar seguimiento",
+          "move_and_requote": "Mover y volver a cotizar",
+          "no_rates": "No hay métodos de entrega cotizados para este envío.",
+          "rates_pending_origin": "Guardá el nuevo origen para ver los métodos de entrega que ofrece.",
+          "ships_from": "Se envía desde",
+          "tracking_description": "El número de seguimiento del transportista, o un enlace de seguimiento completo.",
+          "upload_label_cost": "Costo de franqueo",
+          "upload_label_description": "Registrá una etiqueta comprada en otro lugar, para que el envío tenga su archivo, su número de seguimiento y lo que costó.",
+          "upload_label_file": "Archivo de la etiqueta",
+          "upload_label_title": "Subir etiqueta"
+        },
+        "section_customer_note": "Instrucciones especiales",
+        "section_internal_note": "Nota interna"
+      },
+      "fulfill": {
+        "include_item": "Enviar {{name}}",
+        "quantity_for": "Cantidad a enviar de {{name}}",
+        "of_units": "de {{count}}",
+        "empty": "Este envío no contiene artículos que se puedan enviar.",
+        "tracking_label": "Número de seguimiento",
+        "tracking_placeholder": "Número de seguimiento o enlace",
+        "notify_customer": "Enviar notificación de envío al cliente",
+        "partial_hint": "Las unidades seleccionadas se mueven a un nuevo envío que se despacha ahora. El resto permanece en este, todavía abierto.",
+        "units_selected": "Unidades a enviar",
+        "submit": "Enviar artículos"
+      }
+    },
+    "tax_identifiers": {
+      "add_cta": "Agregar registro",
+      "add_title": "Agregar registro de impuestos",
+      "checked_prefix": "Verificado",
+      "delete_confirm": {
+        "message": "{{value}} se eliminará. Los pedidos ya realizados conservan el número con el que fueron facturados.",
+        "title": "¿Eliminar este registro?"
+      },
+      "dialog_description": "El número de IVA o de empresa que aparece en las facturas. Es lo que hace posible la inversión del sujeto pasivo B2B en la UE.",
+      "edit_title": "Editar registro de impuestos",
+      "empty": "Sin registros de impuestos archivados",
+      "kinds": {
+        "au_abn": "Número de empresa australiano (ABN)",
+        "ch_vat": "IVA suizo",
+        "eu_vat": "IVA UE",
+        "gb_vat": "IVA del Reino Unido",
+        "us_ein": "EIN de EE. UU."
+      },
+      "messages": {
+        "created": "Registro agregado",
+        "deleted": "Registro eliminado",
+        "updated": "Registro actualizado",
+        "validation_failed": "No se pudo verificar el número",
+        "validation_requested": "Verificando el número con el registro"
+      },
+      "not_validatable": "No hay registro contra el cual verificar este tipo, así que el número se registra tal como se ingresó.",
+      "select_kind": "Seleccionar un tipo",
+      "title": "Registro de impuestos",
+      "validate_action": "Verificar con el registro",
+      "validation_status": {
+        "not_checked": "No verificado",
+        "pending": "Verificando",
+        "unavailable": "Registro no disponible",
+        "unsupported": "No se puede verificar",
+        "unverified": "No válido",
+        "verified": "Verificado"
+      }
+    },
+    "pages": {
+      "orders": {
+        "detail": {
+          "returns": {
+            "receive_title": "Recibir artículos devueltos",
+            "received_quantity": "Recibidos",
+            "resellable": "Revendible",
+            "actions": {
+              "receive": "Recibir artículos",
+              "refund": "Reembolsar"
+            },
+            "refund_title": "Reembolsar devolución",
+            "refund_amount": "Monto",
+            "refund_method": "Reembolsar a",
+            "refund_methods": {
+              "original_payment": "Pago original",
+              "store_credit": "Crédito de tienda"
+            },
+            "reason": "Motivo",
+            "location": "Devolver a",
+            "location_default": "Ubicación de devoluciones predeterminada",
+            "location_no_returns": "{{name}} (no acepta devoluciones)",
+            "memo": "Nota",
+            "create_title": "Nueva devolución"
+          },
+          "claims": {
+            "resolve_title": "Resolver reclamo",
+            "resolution": "Cómo resolverlo",
+            "resolutions": {
+              "refund": "Reembolso",
+              "replacement": "Reemplazo",
+              "refund_and_replacement": "Reembolso y reemplazo"
+            },
+            "refund_amount": "Monto a reembolsar",
+            "replacement_items": "Enviar un reemplazo por",
+            "actions": {
+              "resolve": "Resolver",
+              "create": "Nuevo reclamo"
+            },
+            "create_title": "Nuevo reclamo"
+          },
+          "dialogs": {
+            "cancel_title": "¿Cancelar pedido?"
+          },
+          "actions": {
+            "cancel": "Cancelar pedido"
+          }
+        }
+      }
+    },
+    "settings_nav": {
+      "descriptions": {
+        "delivery_methods": "Cómo se envían tus productos a los clientes",
+        "package_types": "Cajas, cartones y contenedores en los que empacás tus pedidos",
+        "policies": "Documentos de términos, privacidad, devoluciones y envío",
+        "stock_locations": "Depósitos y puntos de retiro que mantienen stock",
+        "team": "Personas con acceso a este vendedor"
+      }
+    },
+    "settings_page": {
+      "description": "Administrá los envíos, los documentos legales y tu equipo."
+    }
+  },
+  "app": {
+    "name": "Panel de vendedor"
+  },
+  "common": {
+    "apply": "Aplicar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "error": "Algo salió mal.",
+    "loading": "Cargando…",
+    "no_results": "Sin resultados",
+    "remove": "Quitar",
+    "retry": "Reintentar",
+    "save": "Guardar",
+    "saving": "Guardando…",
+    "actions": "Acciones",
+    "edit": "Editar"
+  },
+  "delivery_methods": {
+    "add": "Agregar método de entrega",
+    "columns": {
+      "name": "Nombre",
+      "owner": "Propietario",
+      "visibility": "Visibilidad"
+    },
+    "conditions": {
+      "add": "Agregar una condición",
+      "description": "Sin condiciones, este método se ofrece en todos los pedidos que pueda enviar.",
+      "remove": "Quitar condición"
+    },
+    "delete_confirm": {
+      "title": "¿Eliminar método de entrega?",
+      "message": "{{name}} se eliminará. Los pedidos ya enviados con él conservan sus registros."
+    },
+    "description": "Cómo llegan tus pedidos a los clientes, y cuánto les cuesta el envío.",
+    "empty": {
+      "title": "Todavía no hay métodos de entrega",
+      "description": "Agregá una forma de enviar, o usá una que este marketplace comparte con sus vendedores."
+    },
+    "fields": {
+      "admin_name": "Nombre interno",
+      "calculator": "Precio",
+      "delivery_profile": "Tipo de mercadería",
+      "delivery_zone": "Envía a",
+      "name": "Nombre",
+      "storefront_visible": "Mostrar al finalizar la compra"
+    },
+    "messages": {
+      "deleted": "Método de entrega eliminado",
+      "saved": "Método de entrega guardado"
+    },
+    "owner": {
+      "marketplace": "Marketplace",
+      "mine": "Tuyo"
+    },
+    "search_placeholder": "Buscar por nombre…",
+    "sections": {
+      "conditions": "Cuándo aplica este método",
+      "goods": "Qué envía",
+      "price": "Qué cuesta"
+    },
+    "sheet": {
+      "new_title": "Nuevo método de entrega",
+      "description": "Los compradores eligen esto al finalizar la compra, así que nombralo como se lo describirías a ellos."
+    },
+    "title": "Métodos de entrega",
+    "visibility": {
+      "hidden": "Oculto",
+      "storefront": "Tienda"
+    },
+    "zone": {
+      "everywhere": "En todos los lugares a los que llega este tipo de mercadería"
+    }
+  },
+  "earnings": {
+    "balance": {
+      "converted": "Ganado en {{currency}}, pagado en tu propia moneda",
+      "earned": "Ganado",
+      "empty": "Una vez que se envíe uno de tus pedidos, lo que generó aparecerá aquí.",
+      "load_error": "No se pudo cargar tu saldo.",
+      "owed": "A tu favor ({{currency}})",
+      "paid": "Pagado",
+      "payable": "A pagar",
+      "pending": "En camino",
+      "title": "Saldo"
+    },
+    "columns": {
+      "date": "Fecha",
+      "order": "Pedido",
+      "kind": "Tipo",
+      "status": "Estado",
+      "amount": "Monto"
+    },
+    "kinds": {
+      "earning": "Venta",
+      "refund_reversal": "Reembolso"
+    },
+    "search_placeholder": "Buscar por referencia",
+    "statuses": {
+      "pending": "Pendiente",
+      "processing": "Procesando",
+      "completed": "Completado",
+      "failed": "Fallido",
+      "unresolved": "Requiere revisión"
+    },
+    "subtitle": "Lo que generaron tus ventas, y cómo está tu situación con el marketplace.",
+    "title": "Ganancias",
+    "transfers": {
+      "title": "Ganancias",
+      "empty": "Todavía no hay ganancias."
+    }
+  },
+  "forgot_password": {
+    "back_to_login": "Volver a iniciar sesión",
+    "email": "Correo electrónico",
+    "failed": "No se pudo enviar la solicitud. Volvé a intentarlo en un momento.",
+    "sent_subtitle": "Si esa dirección pertenece a una cuenta de vendedor, un enlace para restablecer la contraseña está en camino. El enlace vence pronto.",
+    "sent_title": "Revisá tu correo electrónico",
+    "submit": "Enviar enlace de restablecimiento",
+    "submitting": "Enviando…",
+    "subtitle": "Ingresá tu correo electrónico y te enviaremos un enlace para elegir una nueva contraseña.",
+    "title": "¿Olvidaste tu contraseña?"
+  },
+  "home": {
+    "products": "Productos",
+    "selling_no": "Tus productos todavía no están a la venta.",
+    "selling_title": "Ventas",
+    "selling_yes": "Tus productos están a la venta.",
+    "setup_cta": "Continuar con la incorporación",
+    "setup_description": "{{done}} de {{total}} completados — terminá estos pasos para empezar a vender.",
+    "setup_title": "Terminá tu incorporación",
+    "status": "Estado",
+    "subtitle": "Cómo está tu situación con este marketplace.",
+    "team": "Miembros del equipo",
+    "title": "Hola, {{name}}"
+  },
+  "login": {
+    "email": "Correo electrónico",
+    "failed": "Ese correo electrónico y esa contraseña no coinciden con ninguna cuenta de vendedor.",
+    "forgot_password": "¿Olvidaste tu contraseña?",
+    "no_seller": "Esta cuenta no administra ningún vendedor en este marketplace.",
+    "password": "Contraseña",
+    "submit": "Iniciar sesión",
+    "submitting": "Iniciando sesión…",
+    "subtitle": "Administrá tu tienda, tu equipo y tus liquidaciones.",
+    "title": "Iniciá sesión en tu panel de vendedor"
+  },
+  "nav": {
+    "home": "Inicio",
+    "legal": "Legal",
+    "onboarding": "Incorporación",
+    "orders": "Pedidos",
+    "policies": "Políticas",
+    "products": "Productos",
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "sign_out": "Cerrar sesión",
+    "team": "Equipo",
+    "delivery_methods": "Métodos de entrega",
+    "package_types": "Tipos de paquete",
+    "earnings": "Ganancias",
+    "payouts": "Liquidaciones"
+  },
+  "onboarding": {
+    "accept_terms": "Aceptar los términos",
+    "awaiting_review": "Esperando a que el marketplace revise esto.",
+    "connect_payout_account": "Configurá cómo recibís tus pagos",
+    "payout_account_rejected": "Contactá a tu proveedor de pagos",
+    "awaiting_payout_provider": "Esperando a que tu proveedor de pagos termine de verificar tus datos.",
+    "confirm": "Confirmar",
+    "document_help": "PDF o una imagen del documento.",
+    "document_label": "Documento",
+    "done": "Esto ya está listo.",
+    "go": "Ir allí",
+    "note_placeholder": "Cualquier cosa que el marketplace deba saber (opcional)",
+    "optional": "Opcional",
+    "progress_count": "{{done}} de {{total}} completados",
+    "progress_title": "Tu progreso",
+    "read_terms": "Leer los términos",
+    "ready": "Todo lo requerido está completo.",
+    "remaining_one": "Queda {{count}} cosa por hacer antes de poder enviar",
+    "remaining_other": "Quedan {{count}} cosas por hacer antes de poder enviar",
+    "status": {
+      "complete": "Completado",
+      "pending": "En revisión",
+      "rejected": "Necesita otra revisión"
+    },
+    "submit": "Enviar para revisión",
+    "submit_document": "Enviar para revisión",
+    "submitted": "Enviado para revisión",
+    "submitted_requirement": "Enviado",
+    "submitting": "Enviando…",
+    "subtitle": "Lo que este marketplace pide antes de que puedas empezar a vender.",
+    "terms_accepted": "Términos aceptados",
+    "title": "Incorporación",
+    "under_review": "El marketplace está revisando tu solicitud. Te enviaremos un correo electrónico cuando haya novedades."
+  },
+  "orders": {
+    "address_edit": {
+      "billing_title": "Editar dirección de facturación",
+      "shipping_title": "Editar dirección de envío"
+    },
+    "billing_address": "Dirección de facturación",
+    "columns": {
+      "fulfillment": "Envío",
+      "number": "Pedido",
+      "payment": "Pago",
+      "placed": "Realizado",
+      "quantity": "Cantidad",
+      "total": "Total"
+    },
+    "customer": {
+      "title": "Cliente"
+    },
+    "customer_note": "Nota del cliente",
+    "earnings": {
+      "title": "Lo que ganó",
+      "payout": "Liquidación",
+      "view_payout": "Ver liquidación",
+      "not_settled": "Todavía no pagado"
+    },
+    "empty": "Todavía no hay pedidos. Aparecerán aquí a medida que los clientes te compren.",
+    "fulfill": "Marcar como enviado",
+    "fulfillment_statuses": {
+      "backorder": "Contrarreserva",
+      "canceled": "Cancelado",
+      "delivered": "Entregado",
+      "fulfilled": "Enviado",
+      "partial": "Parcial",
+      "unfulfilled": "Sin enviar"
+    },
+    "fulfillments": {
+      "add_delivery": "Agregar seguimiento",
+      "add_tracking": "Agregar seguimiento",
+      "cancel": "Cancelar envío",
+      "cancel_message": "La mercadería vuelve al estante y se da de baja al transportista.",
+      "cancel_title": "¿Cancelar este envío?",
+      "carrier_status_available_for_pickup": "Disponible para retiro",
+      "carrier_status_delivered": "Entregado",
+      "carrier_status_failure": "Entrega fallida",
+      "carrier_status_in_transit": "En tránsito",
+      "carrier_status_out_for_delivery": "En camino a la entrega",
+      "carrier_status_pending": "Esperando al transportista",
+      "carrier_status_pre_transit": "Etiqueta creada",
+      "carrier_status_return_to_sender": "Devolución al remitente",
+      "carrier_status_unknown": "Estado desconocido",
+      "confirm_delete_delivery": "¿Quitar este número de seguimiento?",
+      "confirm_delete_label": "¿Quitar esta etiqueta? El archivo se elimina y no se podrá volver a imprimir.",
+      "confirm_split": "Esto tiene efecto inmediato.",
+      "delete_label": "Quitar etiqueta",
+      "empty": "No hay nada para enviar en este pedido.",
+      "free": "Gratis",
+      "label_cost": "Costo {{amount}}",
+      "label_title": "Etiqueta de envío",
+      "label_uploaded": "Subida",
+      "packing_slip_title": "Nota de entrega — pedido {{number}}",
+      "print_label": "Imprimir etiqueta",
+      "print_packing_slip": "Imprimir nota de entrega",
+      "ship_to": "Enviar a",
+      "ships_from_label": "Se envía desde",
+      "split": "Dividir",
+      "split_description": "Mové parte de lo que contiene este envío a uno propio.",
+      "split_item": "Artículo",
+      "split_quantity": "Cantidad a mover",
+      "split_title": "Dividir este envío",
+      "split_would_empty": "Mover todo dejaría este envío vacío.",
+      "splitting": "Dividiendo…",
+      "title": "Envíos",
+      "upload_label": "Subir etiqueta"
+    },
+    "items": "Artículos",
+    "not_found": "No se pudo encontrar ese pedido.",
+    "payment": {
+      "title": "Pago",
+      "share_help": "Tu parte de lo que el cliente pagó por este carrito.",
+      "authorized": "Autorizado",
+      "captured": "Capturado",
+      "refunded": "Reembolsado",
+      "refundable": "Reembolsable"
+    },
+    "payment_statuses": {
+      "none": "Sin pagar",
+      "authorized": "Autorizado",
+      "partially_paid": "Pagado parcialmente",
+      "paid": "Pagado",
+      "partially_refunded": "Reembolsado parcialmente",
+      "refunded": "Reembolsado",
+      "overcharged": "Cobrado de más",
+      "voided": "Anulado"
+    },
+    "post_sale": {
+      "approve": "Aprobar",
+      "cancel": "Cancelar",
+      "claims": {
+        "cancel_message": "Se le avisa al cliente que no se llevará a cabo.",
+        "cancel_title": "¿Cancelar este reclamo?",
+        "create": "Nuevo reclamo",
+        "deny": "Denegar",
+        "deny_message": "Se le avisa al cliente que el reclamo no fue aceptado.",
+        "deny_title": "¿Denegar este reclamo?",
+        "empty": "No se reportó nada en este pedido.",
+        "resolve": "Resolver",
+        "title": "Reclamos"
+      },
+      "exchanges": {
+        "title": "Cambios",
+        "receive": "Recibir",
+        "fulfill": "Enviar reemplazo",
+        "price_difference": "Diferencia de precio: {{amount}}",
+        "cancel_title": "¿Cancelar este cambio?",
+        "cancel_message": "Se le avisa al cliente que no se llevará a cabo."
+      },
+      "reason": "Motivo",
+      "returns": {
+        "cancel_message": "Se le avisa al cliente que no se llevará a cabo.",
+        "cancel_title": "¿Cancelar esta devolución?",
+        "create": "Nueva devolución",
+        "empty": "Todavía no se recibió nada de este pedido.",
+        "not_resellable": "No revendible",
+        "partially_received": "{{received}} de {{quantity}} recibidos",
+        "receive": "Recibir",
+        "refund": "Reembolsar",
+        "refund_total": "Total del reembolso: {{amount}}",
+        "title": "Devoluciones"
+      },
+      "statuses": {
+        "requested": "Solicitado",
+        "approved": "Aprobado",
+        "received": "Recibido",
+        "refunded": "Reembolsado",
+        "fulfilled": "Enviado",
+        "open": "Abierto",
+        "resolved": "Resuelto",
+        "denied": "Denegado",
+        "canceled": "Cancelado"
+      }
+    },
+    "search_placeholder": "Buscar por número de pedido…",
+    "shipping_address": "Envía a",
+    "ships_from": "Se envía desde {{name}}",
+    "summary": {
+      "adjustments": "Ajustes",
+      "cancel_note": "Nota de cancelación",
+      "cancel_reason": "Motivo de cancelación",
+      "canceled_at": "Cancelado el",
+      "commission_fee": "Comisión del marketplace",
+      "commission_tax": "Impuesto de la comisión del marketplace",
+      "commission_total": "Comisión total del marketplace",
+      "completed_at": "Completado el",
+      "created_at": "Creado el",
+      "currency": "Moneda",
+      "item_total": "Artículos",
+      "outstanding_balance": "Saldo pendiente",
+      "payment_total": "Total del pago",
+      "promotions": "Promociones",
+      "shipping": "Envío",
+      "subtotal": "Subtotal",
+      "tax_additional": "Impuesto (adicional)",
+      "tax_included": "Impuesto (incluido)",
+      "tax_total": "Impuesto",
+      "title": "Resumen",
+      "total": "Total"
+    },
+    "title": "Pedidos",
+    "tracking_label": "Número de seguimiento"
+  },
+  "payouts": {
+    "columns": {
+      "date": "Fecha",
+      "status": "Estado",
+      "earnings": "Ganancias",
+      "reference": "Referencia",
+      "amount": "Monto"
+    },
+    "detail": {
+      "covers_empty": "Esta liquidación no cubre ninguna ganancia.",
+      "covers_error": "No se pudieron cargar las ganancias que cubre esta liquidación.",
+      "covers_one": "Cubre {{count}} ganancia",
+      "covers_other": "Cubre {{count}} ganancias",
+      "period": "Período",
+      "settlement": "Liquidación"
+    },
+    "empty": "Todavía no hay liquidaciones.",
+    "not_found": "No se pudo encontrar esta liquidación.",
+    "search_placeholder": "Buscar por referencia",
+    "subtitle": "Lo que el marketplace te ha enviado, y lo que está en camino.",
+    "title": "Liquidaciones"
+  },
+  "policies": {
+    "add": "Agregar política",
+    "columns": {
+      "name": "Nombre",
+      "updated": "Actualizado"
+    },
+    "delete_confirm": {
+      "title": "¿Eliminar política?",
+      "message": "{{name}} se eliminará. Si el marketplace lo requiere, tu incorporación volverá a mostrarlo como pendiente."
+    },
+    "description": "Los documentos legales que los compradores ven en tu tienda.",
+    "empty": {
+      "title": "Todavía no hay políticas",
+      "description": "Publicá los documentos que este marketplace te solicita."
+    },
+    "fields": {
+      "name": "Nombre",
+      "body": "Contenido"
+    },
+    "messages": {
+      "deleted": "Política eliminada",
+      "saved": "Política guardada"
+    },
+    "required": {
+      "title": "Solicitadas a vos",
+      "description": "Este marketplace exige estas políticas antes de aprobarte.",
+      "write": "Escribirla"
+    },
+    "search_placeholder": "Buscar por nombre…",
+    "sheet": {
+      "new_title": "Nueva política",
+      "description": "Los compradores leen esto en la página de tu tienda."
+    },
+    "title": "Políticas"
+  },
+  "products": {
+    "add": "Agregar producto",
+    "add_images": "Agregar imágenes",
+    "add_variant": "Agregar variante",
+    "archive": "Archivar",
+    "archive_confirm_description": "Se retira de la venta y de tus publicaciones activas.",
+    "archive_confirm_title": "¿Archivar este producto?",
+    "bulk": {
+      "delete_confirm_description": "Esto elimina {n} de tu catálogo. Los compradores ya no los verán.",
+      "delete_confirm_title": "¿Eliminar los productos seleccionados?",
+      "delete_failed": "No se pudieron eliminar esos productos.",
+      "deleted": "Se eliminaron {n} productos",
+      "set_status_action": "Definir estado",
+      "skipped_one": "Se dejó {{count}} sin cambios. {{message}}",
+      "skipped_other": "Se dejaron {{count}} sin cambios. {{message}}",
+      "skipped_refused": "El marketplace no permitió moverlos. Abrí uno para ver por qué.",
+      "skipped_submit": "Solo se pueden enviar las publicaciones en borrador y las que el marketplace te pidió cambiar.",
+      "status_dialog_description": "Retirá estas publicaciones mientras trabajás en ellas, o archivalas definitivamente. Poner un producto a la venta es decisión del marketplace: envialo para revisión en su lugar.",
+      "status_dialog_title": "Definir estado",
+      "status_update_failed": "No se pudieron actualizar esos productos.",
+      "status_updated": "Se actualizaron {n} productos",
+      "submit_confirm_description": "El marketplace revisará {n} productos y decidirá si los pone a la venta.",
+      "submit_confirm_title": "¿Enviar los productos seleccionados para revisión?",
+      "submit_failed": "No se pudieron enviar esos productos.",
+      "submitted": "Se enviaron {n} productos para revisión"
+    },
+    "columns": {
+      "name": "Producto",
+      "price": "Precio",
+      "status": "Estado"
+    },
+    "custom_fields": "Detalles del producto",
+    "details": "Detalles",
+    "empty": "Todavía no hay productos. Agregá uno para empezar a vender.",
+    "fields": {
+      "alt": "Texto alternativo",
+      "categories": "Categorías",
+      "categories_placeholder": "Buscar categorías…",
+      "collections": "Colecciones",
+      "collections_placeholder": "Buscar colecciones…",
+      "country_of_origin": "País de origen",
+      "country_of_origin_placeholder": "p. ej., PL",
+      "description": "Descripción",
+      "hs_code": "Código HS",
+      "hs_code_placeholder": "p. ej., 9405.20",
+      "meta_description": "Meta descripción",
+      "meta_keywords": "Meta palabras clave",
+      "meta_title": "Título de página",
+      "name": "Nombre",
+      "option": "Opción",
+      "option_name": "Opción",
+      "option_value": "Valor",
+      "price": "Precio",
+      "price_in": "Precio ({{currency}})",
+      "price_placeholder": "Dejalo en blanco para mantener el precio actual",
+      "product_type": "Tipo de producto",
+      "product_type_placeholder": "Elegí un tipo",
+      "sku": "SKU",
+      "slug": "Identificador de URL",
+      "status": "Estado",
+      "stock": "Stock",
+      "weight": "Peso"
+    },
+    "media": "Multimedia",
+    "media_remove_confirm_description": "Se quita del producto al guardar.",
+    "media_remove_confirm_title": "¿Quitar esta imagen?",
+    "new_title": "Nuevo producto",
+    "not_found": "No se pudo encontrar ese producto.",
+    "organization": "Organización",
+    "rejection_reason": "Motivo: {{reason}}",
+    "saved": "Producto guardado",
+    "search_placeholder": "Buscar por nombre…",
+    "seo": "Listado en buscadores",
+    "shipping": "Envío y aduana",
+    "status_help": {
+      "active": "A la venta y visible para los compradores.",
+      "archived": "Fuera de venta y de tus publicaciones activas.",
+      "draft": "Solo vos podés ver esto. Envialo cuando estés listo para que el marketplace lo revise.",
+      "proposed": "Esperando a que el marketplace lo revise. Todavía podés hacer cambios.",
+      "rejected": "El marketplace pidió cambios. Editalo y volvé a enviarlo."
+    },
+    "status_updated": "Estado actualizado",
+    "statuses": {
+      "active": "Activo",
+      "archived": "Archivado",
+      "draft": "Borrador",
+      "proposed": "En revisión",
+      "rejected": "Cambios necesarios"
+    },
+    "submit_for_review": "Enviar para revisión",
+    "take_down": "Retirar",
+    "take_down_confirm_description": "Los compradores ya no lo verán. Podés volver a enviarlo más adelante.",
+    "take_down_confirm_title": "¿Retirar esta publicación?",
+    "title": "Productos",
+    "uploading": "Subiendo {{count}} archivo…",
+    "uploading_plural": "Subiendo {{count}} archivos…",
+    "variant_remove_confirm_description": "Se quita del producto al guardar.",
+    "variant_remove_confirm_title": "¿Quitar esta variante?",
+    "variants": "Variantes",
+    "variants_empty": "Este producto se vende como un solo artículo, al precio de arriba. Agregá una variante para venderlo en opciones como talle o color."
+  },
+  "profile": {
+    "about": "Acerca de",
+    "add_address": "Agregar dirección",
+    "address_filled": "Agregada",
+    "address_missing": "No agregada",
+    "address_not_provided": "Todavía no hay dirección.",
+    "at_a_glance": "De un vistazo",
+    "billing_address": "Dirección de facturación",
+    "billing_email": "Correo de facturación",
+    "business_details": "Datos de la empresa",
+    "contact_email": "Correo de contacto",
+    "edit": "Editar",
+    "edit_title": "Editar tu perfil",
+    "joined": "Se unió",
+    "legal_name": "Razón social",
+    "minimum_payout": "Liquidación mínima",
+    "name": "Nombre",
+    "no_about": "Todavía no escribiste una descripción.",
+    "not_provided": "No proporcionado",
+    "on_holiday_notice": "El modo vacaciones está activado, así que tus productos son visibles pero no se pueden comprar.",
+    "operator_managed": "Definido por el marketplace",
+    "payout_schedule": "Cronograma de liquidaciones",
+    "products_count": "Productos",
+    "registration_number": "Número de registro",
+    "returns_address": "Dirección de devoluciones",
+    "save": "Guardar cambios",
+    "saved": "Perfil guardado",
+    "saving": "Guardando…",
+    "section_contact": "Contacto",
+    "section_settlement": "Liquidaciones e impuestos",
+    "section_standing": "Situación",
+    "select_tax_identifier_kind": "Seleccioná o escribí un tipo de registro",
+    "status_help": {
+      "approved": "Estás aprobado y podés vender en este marketplace.",
+      "canceled": "Esta cuenta de vendedor está cerrada.",
+      "invited": "Fuiste invitado. Terminá de configurarte para aplicar.",
+      "onboarding": "Completá tu lista de tareas y luego enviala para revisión.",
+      "pending": "El marketplace todavía no comenzó a revisar tu solicitud.",
+      "ready_for_review": "El marketplace está revisando tu solicitud.",
+      "rejected": "Tu solicitud no fue aceptada. Contactá al marketplace para obtener más información.",
+      "suspended": "La venta está pausada. Contactá al marketplace para obtener más información."
+    },
+    "subtitle": "Cómo te presenta tu tienda, y cómo el marketplace se comunica con vos.",
+    "tax_identifier_kind": "Tipo de registro",
+    "tax_identifier_kinds": {
+      "au_abn": "Número de empresa australiano (ABN)",
+      "ch_vat": "IVA suizo",
+      "eu_vat": "IVA UE",
+      "gb_vat": "IVA del Reino Unido",
+      "us_ein": "EIN de EE. UU."
+    },
+    "tax_remittance": "Impuesto remitido por",
+    "team_count": "Miembros del equipo",
+    "vat_number": "Número de IVA",
+    "vat_status": {
+      "pending": "Estamos verificando este número.",
+      "unavailable": "No se pudo contactar al registro; lo intentaremos de nuevo.",
+      "unsupported": "Este número se registra tal como se ingresó; no podemos verificarlo automáticamente.",
+      "unverified": "Este número no pudo verificarse."
+    }
+  },
+  "reset_password": {
+    "failed": "No se pudo usar ese enlace. Puede haber vencido, o la contraseña no fue aceptada.",
+    "invalid_link": "A este enlace le falta el token. Abrí el enlace desde el correo de restablecimiento.",
+    "mismatch": "Ambas contraseñas deben coincidir.",
+    "password": "Nueva contraseña",
+    "password_confirmation": "Confirmar nueva contraseña",
+    "request_new_link": "Solicitar un nuevo enlace",
+    "submit": "Cambiar contraseña",
+    "submitting": "Guardando…",
+    "subtitle": "Elegí una nueva contraseña para terminar de iniciar sesión.",
+    "title": "Elegí una nueva contraseña"
+  },
+  "seller_picker": {
+    "status": "Estado",
+    "subtitle": "Vos administrás más de uno. Elegí cuál gestionar.",
+    "title": "Elegir un vendedor"
+  },
+  "seller_switcher": {
+    "label": "Cambiar de vendedor"
+  },
+  "team": {
+    "actions": {
+      "copy_link": "Copiar enlace de invitación",
+      "remove": "Quitar",
+      "resend": "Reenviar invitación",
+      "revoke": "Revocar"
+    },
+    "confirm": {
+      "remove_message": "{{name}} perderá el acceso a este vendedor de inmediato.",
+      "remove_title": "Quitar miembro",
+      "revoke_message": "La invitación a {{email}} dejará de funcionar.",
+      "revoke_title": "Revocar invitación"
+    },
+    "empty": "Todavía no hay nadie en el equipo",
+    "empty_description": "Invitá a un colega y aparecerá aquí una vez que acepte.",
+    "invitations_section": "Invitaciones pendientes",
+    "invite_cta": "Invitar miembro",
+    "invite_description": "Recibirá un correo electrónico con un enlace para unirse a este vendedor.",
+    "invite_email": "Correo electrónico",
+    "invite_email_placeholder": "colleague@example.com",
+    "invite_sending": "Enviando…",
+    "invite_submit": "Enviar invitación",
+    "invite_title": "Invitar a un colega",
+    "members_section": "Miembros",
+    "messages": {
+      "invited": "Invitación enviada",
+      "link_copied": "Enlace de invitación copiado",
+      "removed": "Miembro quitado",
+      "resent": "Invitación reenviada",
+      "revoked": "Invitación revocada"
+    },
+    "subtitle": "Las personas que pueden iniciar sesión y administrar este vendedor.",
+    "table": {
+      "email": "Correo electrónico",
+      "expires": "Vence",
+      "member": "Miembro"
+    },
+    "title": "Tu equipo"
+  }
+}

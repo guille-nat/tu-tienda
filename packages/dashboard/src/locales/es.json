@@ -143,7 +143,7 @@
           "customers": "Clientes"
         },
         "subtitle": "Resumen del rendimiento de tu tienda",
-        "title": "Dashboard",
+        "title": "Panel",
         "top_products": "Productos más vendidos",
         "top_products_description": "Los productos más vendidos de tu tienda.",
         "legend": {
@@ -193,7 +193,7 @@
           }
         },
         "rankings": {
-          "title": "Rankings",
+          "title": "Clasificaciones",
           "subtitle": "Los mejores del período seleccionado.",
           "tabs": {
             "customers": "Clientes",
@@ -460,7 +460,7 @@
           "logo_dimensions_help": "Recomendado: 204×104 píxeles.",
           "section_addresses": "Direcciones de email",
           "section_delivery": "Entrega",
-          "section_logo": "Logo",
+          "section_logo": "Logotipo",
           "subtitle": "Direcciones de remitente, notificaciones y el logo incorporado en los emails transaccionales.",
           "title": "Configuración de email"
         },
@@ -512,7 +512,7 @@
           "title": "Configuración de la tienda",
           "tab_downloads": "Descargas digitales",
           "downloads_help": "Cuánto tiempo funciona un enlace de descarga y cuántas veces se puede usar. Los archivos individuales pueden reemplazar estos valores.",
-          "default_package_description": "La caja en la que sueles enviar. Los proveedores de tarifas de transporte suman su peso a cada paquete y usan sus dimensiones para el precio por peso dimensional.",
+          "default_package_description": "La caja en la que solés enviar. Los proveedores de tarifas de transporte suman su peso a cada paquete y usan sus dimensiones para el precio por peso dimensional.",
           "tab_default_package": "Paquete predeterminado"
         },
         "tax_categories": {
@@ -695,7 +695,7 @@
           "role": "Rol",
           "roles": "Roles"
         },
-        "title": "Staff"
+        "title": "Personal"
       },
       "translations": {
         "complete": "Traducido por completo",
@@ -749,7 +749,7 @@
           "collections_removed": "Productos quitados de las colecciones",
           "delete_confirm": {
             "message": "Los productos seleccionados se eliminarán. Esta acción no se puede deshacer.",
-            "title": "¿Eliminar {{n}} productos?"
+            "title": "¿Eliminar {n} productos?"
           },
           "delete_failed": "No se pudieron eliminar los productos",
           "deleted": "{n} productos eliminados",
@@ -761,15 +761,15 @@
           "status_sheet_description": "Elegí el estado que se aplicará a los productos seleccionados.",
           "status_sheet_title": "Definir estado de productos",
           "status_update_failed": "No se pudo actualizar el estado de los productos",
-          "status_updated": "Estado actualizado en {{n}} productos",
+          "status_updated": "Estado actualizado en {n} productos",
           "tags_add_description": "Elegí o creá etiquetas para agregar a estos productos.",
           "tags_add_failed": "No se pudieron agregar las etiquetas",
           "tags_add_title": "Agregar etiquetas",
-          "tags_added": "Etiquetas agregadas a {{n}} productos",
+          "tags_added": "Etiquetas agregadas a {n} productos",
           "tags_remove_description": "Elegí las etiquetas que querés quitar de estos productos.",
           "tags_remove_failed": "No se pudieron quitar las etiquetas",
           "tags_remove_title": "Quitar etiquetas",
-          "tags_removed": "Etiquetas quitadas de {{n}} productos"
+          "tags_removed": "Etiquetas quitadas de {n} productos"
         },
         "clone_failed": "No se pudo duplicar el producto",
         "clone_succeeded": "Producto duplicado",
@@ -1083,7 +1083,7 @@
           "inherit": "Heredar de la tienda",
           "label": "Estrategia de ruteo de pedidos",
           "options": {
-            "Spree::OrderRouting::Strategy::Legacy": "Legacy",
+            "Spree::OrderRouting::Strategy::Legacy": "Heredada",
             "Spree::OrderRouting::Strategy::Rules": "Reglas (ordenadas)"
           }
         },
@@ -1104,7 +1104,7 @@
           "label": "Cargo fijo"
         },
         "bounds": {
-          "help": "Nunca cobres menos que el primero ni más que el segundo. Cada uno aplica solo a ventas en su propia moneda; deja una moneda vacía para cobrarla sin límites.",
+          "help": "Nunca cobres menos que el primero ni más que el segundo. Cada uno aplica solo a ventas en su propia moneda; dejá una moneda vacía para cobrarla sin límites.",
           "label": "Piso y tope (opcional)"
         },
         "code": {
@@ -1237,7 +1237,7 @@
           "label": "Ordenable"
         },
         "storefront_visible": {
-          "column_label": "Storefront",
+          "column_label": "Tienda",
           "label": "Visible en el storefront"
         }
       },
@@ -1726,7 +1726,7 @@
           "label": "Foto"
         },
         "email": {
-          "label": "Email"
+          "label": "Correo electrónico"
         },
         "first_name": {
           "label": "Nombre"
@@ -2103,7 +2103,7 @@
         },
         "preferred_default_package_dimensions": {
           "height": "Alto",
-          "help": "La caja en la que sueles enviar, usada por los proveedores de tarifas de transporte para el precio por peso dimensional: pulgadas en imperial, centímetros en métrico. Se necesitan los tres para que surta efecto.",
+          "help": "La caja en la que solés enviar, usada por los proveedores de tarifas de transporte para el precio por peso dimensional: pulgadas en imperial, centímetros en métrico. Se necesitan los tres para que surta efecto.",
           "label": "Dimensiones del paquete predeterminado",
           "length": "Largo",
           "width": "Ancho"
@@ -2126,7 +2126,7 @@
         },
         "default_commission_tax_rate": {
           "label": "Impuesto predeterminado sobre la comisión",
-          "help": "Se aplica a tu comisión cuando ni la tarifa de comisión ni tu proveedor de impuestos indican una propia. Déjalo en 0 si tu comisión no lleva impuesto.",
+          "help": "Se aplica a tu comisión cuando ni la tarifa de comisión ni tu proveedor de impuestos indican una propia. Dejalo en 0 si tu comisión no lleva impuesto.",
           "suffix": "%"
         }
       },
@@ -3211,7 +3211,7 @@
         "cover_photo_help": "Un banner ancho en la parte superior del perfil del vendedor.",
         "cover_photo_label": "Foto de portada",
         "logo_help": "Lo mejor es cuadrado. Se muestra al lado del vendedor dondequiera que aparezca.",
-        "logo_label": "Logo",
+        "logo_label": "Logotipo",
         "square_logo_help": "Se usa donde hace falta un cuadrado ajustado, como un avatar.",
         "square_logo_label": "Logo cuadrado"
       },
@@ -3263,7 +3263,7 @@
           "pending": "En revisión",
           "rejected": "Devuelto"
         },
-        "title": "Onboarding",
+        "title": "Incorporación",
         "view_policy": "Ver política",
         "waive_confirm": {
           "message": "«{{name}}» contará como cumplido solo para este vendedor.",
@@ -3271,7 +3271,7 @@
         },
         "waived": "Eximida"
       },
-      "onboarding_column": "Onboarding",
+      "onboarding_column": "Incorporación",
       "payout_interval": {
         "biweekly": "Cada quince días",
         "daily": "Diario",
@@ -3294,7 +3294,7 @@
         "approved": "Aprobado",
         "canceled": "Cancelado",
         "invited": "Invitado",
-        "onboarding": "Onboarding",
+        "onboarding": "En incorporación",
         "pending": "Pendiente",
         "ready_for_review": "Listo para revisión",
         "rejected": "Rechazado",
@@ -3768,7 +3768,7 @@
         "erased": "Borrado",
         "groups": "Grupos",
         "last_order": "Último pedido",
-        "newsletter": "Newsletter",
+        "newsletter": "Boletín",
         "orders": "Pedidos",
         "total_spent": "Total gastado"
       },
@@ -4051,7 +4051,7 @@
         "collections": "Colecciones",
         "commissions": "Comisiones",
         "customers": "Clientes",
-        "dashboard": "Dashboard",
+        "dashboard": "Panel",
         "delivery_methods": "Métodos de entrega",
         "fulfillments": "Cumplimientos",
         "gift_cards": "Tarjetas de regalo",
@@ -4120,7 +4120,7 @@
         "commission_rates": "Tasas de comisión",
         "custom_field_definitions": "Campos personalizados",
         "delivery_profiles": "Perfiles de envío",
-        "emails": "Emails",
+        "emails": "Correos electrónicos",
         "imports": "Importaciones",
         "integrations": "Integraciones",
         "markets": "Mercados",
@@ -4131,7 +4131,7 @@
         "reasons": "Devoluciones y motivos",
         "roles": "Roles",
         "seller_requirements": "Requisitos de vendedores",
-        "staff": "Staff",
+        "staff": "Personal",
         "stock_locations": "Ubicaciones de stock",
         "store": "Tienda",
         "tax_categories": "Categorías de impuestos",
@@ -5050,7 +5050,7 @@
       "edit_title": "Editar registro de impuestos",
       "empty": "Sin registros de impuestos archivados",
       "kinds": {
-        "au_abn": "Australian Business Number",
+        "au_abn": "Número de empresa australiano (ABN)",
         "ch_vat": "IVA suizo",
         "eu_vat": "IVA UE",
         "gb_vat": "IVA del Reino Unido",
@@ -5268,7 +5268,7 @@
         "read_only": "Solo lectura"
       },
       "templates": {
-        "merchandiser": "Merchandiser",
+        "merchandiser": "Responsable de catálogo",
         "order_manager": "Encargado de pedidos",
         "start_from": "Empezar desde:",
         "support": "Soporte"
@@ -5652,7 +5652,7 @@
     "payment_methods": {
       "add_cta": "Agregar método de pago",
       "columns": {
-        "storefront": "Storefront"
+        "storefront": "Tienda"
       },
       "create_description": "Elegí un proveedor y configurá sus credenciales.",
       "create_label": "Crear método de pago",
@@ -5697,9 +5697,9 @@
       "welcome_description": "Avanzá por la lista de control de abajo para abrir {{store}} al público.",
       "welcome_title": "¡Bienvenido, tu tienda ya está lista!",
       "rate_limited_title": "Demasiados intentos",
-      "rate_limited_message": "La configuración se ha consultado demasiadas veces en poco tiempo. Espera un minuto y vuelve a intentarlo.",
+      "rate_limited_message": "La configuración se ha consultado demasiadas veces en poco tiempo. Esperá un minuto y volvé a intentarlo.",
       "check_failed_title": "No se pudo comprobar la configuración",
-      "check_failed_message": "No se pudo contactar con el servidor para comprobar si esta instalación necesita configurarse. Asegúrate de que está en marcha y vuelve a intentarlo."
+      "check_failed_message": "No se pudo contactar con el servidor para comprobar si esta instalación necesita configurarse. Asegurate de que está en marcha y volvé a intentarlo."
     },
     "tax_rates": {
       "add_cta": "Agregar tasa de impuesto",

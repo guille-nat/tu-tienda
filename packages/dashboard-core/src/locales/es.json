@@ -55,7 +55,7 @@
             "stock_transfer": "Transferencia",
             "stock_transfer_plural": "Transferencias"
           },
-          "verbs": "add,new,create"
+          "verbs": "agregar,nuevo,nueva,crear,añadir,add,new,create"
         },
         "description": "Busca entre productos, pedidos y clientes, o ejecuta un comando.",
         "empty_hint": "Escribí para buscar o elegí un comando abajo.",
@@ -342,7 +342,7 @@
           "collections_removed": "Productos quitados de las colecciones",
           "delete_confirm": {
             "message": "Los productos seleccionados se eliminarán. Esta acción no se puede deshacer.",
-            "title": "¿Eliminar {{n}} productos?"
+            "title": "¿Eliminar {n} productos?"
           },
           "delete_failed": "No se pudieron eliminar los productos",
           "deleted": "{n} productos eliminados",
@@ -354,15 +354,15 @@
           "status_sheet_description": "Elegí el estado que se aplicará a los productos seleccionados.",
           "status_sheet_title": "Definir estado de productos",
           "status_update_failed": "No se pudo actualizar el estado de los productos",
-          "status_updated": "Estado actualizado en {{n}} productos",
+          "status_updated": "Estado actualizado en {n} productos",
           "tags_add_description": "Elegí o creá etiquetas para agregar a estos productos.",
           "tags_add_failed": "No se pudieron agregar las etiquetas",
           "tags_add_title": "Agregar etiquetas",
-          "tags_added": "Etiquetas agregadas a {{n}} productos",
+          "tags_added": "Etiquetas agregadas a {n} productos",
           "tags_remove_description": "Elegí las etiquetas que querés quitar de estos productos.",
           "tags_remove_failed": "No se pudieron quitar las etiquetas",
           "tags_remove_title": "Quitar etiquetas",
-          "tags_removed": "Etiquetas quitadas de {{n}} productos"
+          "tags_removed": "Etiquetas quitadas de {n} productos"
         },
         "clone_failed": "No se pudo duplicar el producto",
         "clone_succeeded": "Producto duplicado",
@@ -450,7 +450,7 @@
             "price_aria": "Precio de {{label}}",
             "save_cta": "Guardar precios",
             "save_failed": "No se pudieron guardar los precios",
-            "save_success_one": "{count} precio guardado",
+            "save_success_one": "{{count}} precio guardado",
             "save_success_other": "Se guardaron {{count}} precios",
             "search_placeholder": "Buscar por producto, SKU u opción…",
             "title": "Editar precios: {{name}}",
@@ -613,7 +613,7 @@
         "label": "Descuento"
       },
       "email": {
-        "label": "Email"
+        "label": "Correo electrónico"
       },
       "enabled": {
         "label": "Habilitado"
@@ -1823,7 +1823,7 @@
         "box": "Caja",
         "envelope": "Sobre",
         "carton": "Caja de cartón",
-        "pallet": "Pallet",
+        "pallet": "Palé",
         "container": "Contenedor"
       },
       "messages": {

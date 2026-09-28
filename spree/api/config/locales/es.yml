@@ -1,0 +1,64 @@
+---
+es:
+  spree:
+    api:
+      cannot_delete: No se puede eliminar %{model}
+      current_password_invalid: La contraseña actual es inválida o no fue proporcionada
+      gateway_error: 'Hubo un problema con la pasarela de pago: %{text}'
+      invalid_api_key: Se especificó una clave de API inválida (%{key}).
+      invalid_resource: Recurso inválido. Corregí los errores e intentá nuevamente.
+      invalid_taxonomy_id: Id de taxonomía inválido.
+      must_specify_api_key: Debés especificar una clave de API.
+      errors:
+        automatic_collection_curation: Los productos de una colección automática se gestionan mediante sus reglas y no pueden seleccionarse manualmente
+        channel_inactive: El canal al que está vinculada esta clave de API no está activo.
+        channel_mismatch: El canal solicitado no coincide con el canal al que está vinculada esta clave de API.
+        guest_checkout_not_allowed: Debés iniciar sesión para completar la compra.
+        media_not_deleted: "No se pudo eliminar el archivo. No se realizó ningún cambio."
+        media_in_use: "Este archivo todavía está en uso (%{places}). Enviá detach=true para quitarlo de todos lados y eliminarlo, o primero liberá esos lugares."
+        media_url_import_requires_product: Para importar contenido multimedia desde una URL se necesita un producto al cual importarlo. En su lugar, subí el archivo o publicalo en el contenido multimedia de un producto.
+        store_mismatch: La tienda solicitada no coincide con la tienda a la que pertenece esta clave de API.
+        storefront_login_required: Se requiere autenticación para acceder a esta tienda.
+      negative_quantity: la cantidad es negativa
+      newsletter_unsubscribe_token_invalid: El token para cancelar la suscripción al boletín es inválido o ha expirado.
+      newsletter_verification_token_invalid: El token de verificación del boletín es inválido o ha expirado.
+      order:
+        could_not_transition: No se pudo hacer la transición del pedido. Corregí los errores e intentá nuevamente.
+        insufficient_quantity: Un artículo de tu carrito ha dejado de estar disponible.
+        invalid_shipping_method: Se especificó un método de envío inválido.
+      password_reset_requested: Si existe una cuenta asociada a ese correo electrónico, se enviaron las instrucciones para restablecer la contraseña.
+      password_reset_token_invalid: El token para restablecer la contraseña es inválido o ha expirado.
+      payment:
+        credit_over_limit: Este pago solo puede acreditarse hasta %{limit}. Especificá un monto menor o igual a ese número.
+        update_forbidden: Este pago no puede actualizarse porque se encuentra en estado %{state}.
+      invalid_position: new_position debe ser un número entero
+      record_not_found: "%{model} no encontrado"
+      redirect_url_not_allowed: La URL de redirección no proviene de un origen permitido para esta tienda.
+      resource_not_found: No se pudo encontrar el recurso solicitado.
+      shipment:
+        cannot_ready: No se puede preparar el envío.
+      shipment_transfer_errors_occurred: 'Ocurrieron los siguientes errores al intentar realizar esta acción:'
+      shipment_transfer_success: Variantes transferidas correctamente
+      stock_location_required: Se debe proporcionar un parámetro stock_location_id para obtener los movimientos de stock.
+      unauthorized: No estás autorizado para realizar esa acción.
+      v2:
+        cart:
+          no_coupon_code: No se proporcionó ningún código de cupón y el pedido no tiene promociones de código de cupón aplicadas
+          wrong_quantity: La cantidad debe ser mayor que 0
+        digitals:
+          missing_file: 'Falta el artículo digital: archivo adjunto'
+          unauthorized: Error, no estás autorizado para acceder a este archivo
+        gift_card:
+          amount_not_valid: El monto de la tarjeta de regalo no es válido
+          not_found: No se encontró la tarjeta de regalo
+        metadata:
+          invalid_params: Los parámetros de metadatos públicos y privados deben ser objetos
+        wishlist:
+          errors:
+            the_wishlist_could_not_be_destroyed: No se pudo eliminar la lista de deseos.
+          wrong_quantity: La cantidad debe ser mayor que 0
+      v3:
+        payments:
+          method_unavailable: Este método de pago no está disponible para este pedido.
+          session_required: Este método de pago requiere una sesión de pago. Utilizá el endpoint de sesiones de pago en su lugar.
+      wrong_shipment_target: el envío de destino es el mismo que el envío original
